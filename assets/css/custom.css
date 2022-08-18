@@ -1,0 +1,29 @@
+.link-font-awesome {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.link-golang {
+    background: rgb(0,173,216);
+    background: linear-gradient(225deg, rgba(0,173,216,1) 0%, rgba(0,162,156,1) 46%);
+  }
+
+.link-postgres {
+    background: rgb(0,100,165);
+    background: linear-gradient(225deg, rgba(0,100,165,1) 0%, rgba(0,114,172,1) 63%, rgba(0,139,185,1) 92%);
+  }
+
+.link-website {
+    background: rgb(165,0,0);
+    background: linear-gradient(
+    225deg,
+    rgba(165,0,0,1) 0%,
+    rgba(0,114,172,1) 47%,
+    rgba(0,139,185,1) 92%);
+
+  }

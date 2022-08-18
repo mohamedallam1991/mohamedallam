@@ -1,3 +1,36 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "lynx"
+title = "Mohamed Allam Linktree"
+baseURL = "https://mohamedallam1991.github.io/mohamedallam"
+# https://www.svgrepo.com/vectors/example/1
+# https://cssgradient.io/
+# https://github.com/MariaLetta/free-gophers-pack
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+# copyright = "Copy, _right?_ :rocket:" a
+
+[author]
+  name = "Mohamed Allam"
+  headline = "All my links can be found here"
+  image = "go-happy.png"
+  links = [
+    { email = { href = "mailto:meda3gm@gmail.com", text = "Email" } },
+    { telegram = { href = "https://t.me/kindatired/", text = "Telegram" } },
+    { github = { href = "https://github.com/mohamedallam1991", text = "My Github", icon = "github" } },
+    { website = { href = "https://mohamedallam.tech", text = "Personal blog" } },
+    { golang = { href = "https://mohamedallam1991.github.io/golang-book", text = "Golang Book :rocket:" } },
+    { postgres   = { href = "https://mohamedallam1991.github.io/golang-book", text = "Postgres Book" } },
+    { youtube = { href = "https://www.youtube.com/channel/UCR1c1Y6c7Q7HPJLjtBWy71g", text = "Golang Examples", target = "_self" } },
+    { twitter = "https://twitter.com/laravelexample" },
+    { linkedin = { href = "https://linkedin.com/in/mohamedallam1991/", text = "LinkedIn" } },
+    { link = { href = "https://mohamedallam1991.github.io", text = "My github page " } },
+    { link = { href = "https://enchanting-nougat-543c62.netlify.app/", text = "My work" } },
+    { link = { href = "https://mohamedallam1991.github.io/postgres/", text = "Some work" } },
+
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
