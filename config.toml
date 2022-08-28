@@ -8,6 +8,7 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 # copyright = "Copy, _right?_ :rocket:" a
 
+[Params]
 GoogleAnalytics = "G-0YVRZ8RGBF"
 
 [author]
