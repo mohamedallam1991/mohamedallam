@@ -4,3 +4,6 @@
 [submodule "themes/lynx3"]
 	path = themes/lynx3
 	url = https://github.com/mohamedallam1991/lynx
+[submodule "themes/lynx4"]
+	path = themes/lynx4
+	url = https://github.com/mohamedallam1991/lynx
