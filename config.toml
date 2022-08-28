@@ -8,6 +8,8 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 # copyright = "Copy, _right?_ :rocket:" a
 
+GoogleAnalytics = "G-0YVRZ8RGBF"
+
 [author]
   name = "Mohamed Allam"
   headline = "All my links can be found here"
