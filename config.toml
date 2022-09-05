@@ -20,6 +20,7 @@ GoogleAnalytics = "G-0YVRZ8RGBF"
   image = "go-happy.png"
   links = [
     { email = { href = "mailto:meda3gm@gmail.com", text = "Email" } },
+    { link = { href = "https://calendly.com/mohamedallam/", text = "Book Me, Calendly" } },
     { telegram = { href = "https://t.me/kindatired/", text = "Telegram" } },
     { github = { href = "https://github.com/mohamedallam1991", text = "My Github", icon = "github" } },
     { website = { href = "https://mohamedallam.tech", text = "Personal blog" } },
